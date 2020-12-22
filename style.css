@@ -1,0 +1,87 @@
+/* --------------------------
+           GLOBAL
+--------------------------- */
+
+:root {
+
+}
+
+/* --------------------------
+           HEADER
+--------------------------- */
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+/* --------------------------
+           Main
+--------------------------- */
+
+main {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+
+main a {
+    color: white;
+    width: 40%;
+    min-width: 250px;
+    transition: border .5s;
+}
+
+main a:hover {
+    border: 3px solid brown;
+}
+
+main a div {
+    height: 200px;
+    width: 100%;
+    min-width: 250px;
+    border-radio: 5px;
+    background-color: orangered;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main a div p {
+    text-align: center;
+    font-size: 2em;
+}
+
+/* --------------------------
+           Footer
+--------------------------- */
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 2em;
+    margin: 10px;
+}
+
+/* --------------------------
+           Mobile
+--------------------------- */
+
+@media screen and (max-width: 600px){
+    header img {
+        width: 70%;
+    }
+}
